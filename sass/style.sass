@@ -1,0 +1,102 @@
+@import "compass/reset"
+
+$regular:SegoeUIRegular
+$light: SegoeUILight
+$bold:SegoeUIBold
+
+body
+  max-width: 1200px
+  min-width: 320px
+  height: 100%
+  font-family: $light
+  font-size: 14pt
+  margin: 0 auto
+  background-color: #ffffff
+header
+  margin: 0 auto
+  background: url("../img/test.jpg")
+.header-navigator
+  //background: url("../img/header-navigator-bg.png")
+.logo
+  float: left
+  h1
+    font-size: 24pt
+    color: #ffffff
+    font-family: $bold
+    padding-top: 36px
+    padding-bottom: 36px
+    letter-spacing: 1px
+
+.nav-menu
+  float: right
+  ul
+    padding-top: 42px
+    display: inline-block
+    li
+      display: inline-block
+      padding-right: 28px
+      a
+        text-transform: uppercase
+        font-size: 16pt
+        font-family: $regular
+        font-weight: bold
+        color: #e1e1e1
+
+.header-main
+  text-align: center
+  //background: url("../img/header-main-bg.png")
+  //height: 620px
+  .header-main-text
+    margin-top: 200px
+    margin-bottom: 80px
+    h1
+      padding-bottom: 17px
+      font-family: $light
+      font-size: 50pt
+      color: #ffffff
+      letter-spacing: 3px
+      text-transform: uppercase
+    h2
+      padding-top: 17px
+      font-family: $regular
+      font-size: 28pt
+      color: #ffffff
+
+a.start-tour,a.send-quote
+  display: block
+  border: 2px solid #ffffff
+  -webkit-border-radius: 40px
+  -moz-border-radius: 40px
+  border-radius: 40px
+  padding: 18px 50px
+  color: #ffffff
+  font-family: $regular
+  text-transform: uppercase
+  -webkit-transition: background-color 1s ease-out 0.1s
+  -moz-transition: background-color 1s ease-out 0.1s
+  -ms-transition: background-color 1s ease-out 0.1s
+  -o-transition: background-color 1s ease-out 0.1s
+  transition: background-color 1s ease-out 0.1s
+
+  &:hover
+    background-color: #ffffff
+    color: #000
+
+.slider-nav
+  margin-top: 80px
+  margin-bottom: 30px
+  span
+    display: inline-block
+    opacity: .9
+    background: url("../img/slide-unactive.png")
+    width: 18px
+    height: 18px
+    -webkit-border-radius: 8px
+    -moz-border-radius: 8px
+    border-radius: 8px
+    cursor: pointer
+    overflow: hidden
+    &.on
+      background: #ffffff
+
+
