@@ -197,7 +197,7 @@ a.start-tour:hover, a.send-quote:hover {
 }
 
 /* line 108, ../sass/style.sass */
-.about-us-title h2, .our-approach-title h2 {
+.about-us-title h2, .our-approach-title h2, .our-services-title h2 {
   margin-top: 80px;
   margin-bottom: 34px;
   font-family: SegoeUIBold;
@@ -231,7 +231,7 @@ a.start-tour:hover, a.send-quote:hover {
 
 /* line 136, ../sass/style.sass */
 .quote1 {
-  background: url("../img/quote1.jpg");
+  background: url("../img/quote1-bg.jpg");
 }
 
 /* line 138, ../sass/style.sass */
@@ -267,4 +267,62 @@ h2.quote {
 /* line 161, ../sass/style.sass */
 .quote2 {
   background: url("../img/quote2-bg.jpg");
+}
+
+/* line 165, ../sass/style.sass */
+.our-services-title h2 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+/* line 169, ../sass/style.sass */
+.our-services-inner {
+  background: url("../img/our-services-inner-bg.jpg");
+}
+
+/* line 172, ../sass/style.sass */
+.our-services-left {
+  margin-top: 110px;
+  margin-bottom: 100px;
+}
+/* line 175, ../sass/style.sass */
+.our-services-left p {
+  font-family: SegoeUILight;
+  color: #ffffff;
+}
+
+/* line 179, ../sass/style.sass */
+.our-services-right {
+  background: url("../img/our-services-right.jpg");
+  margin-top: 78px;
+  margin-bottom: 48px;
+}
+/* line 183, ../sass/style.sass */
+.our-services-right ul {
+  padding-top: 44px;
+  padding-left: 120px;
+  padding-bottom: 54px;
+  color: #ffffff;
+  font-size: 13pt;
+}
+/* line 189, ../sass/style.sass */
+.our-services-right ul li {
+  display: inline-block;
+  padding-top: 3px;
+}
+
+/* line 193, ../sass/style.sass */
+.our-clients {
+  background: #1c40a6;
+}
+
+/* line 197, ../sass/style.sass */
+.our-clients-title h2 {
+  margin-top: 46px;
+  margin-bottom: 46px;
+  font-family: SegoeUIBold;
+  font-size: 22pt;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
 }
