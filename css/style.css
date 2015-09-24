@@ -192,12 +192,12 @@ a.start-tour:hover, a.send-quote:hover {
 /* line 103, ../sass/style.sass */
 .about-us {
   background: url("../img/test2.jpg");
-  background-position: right;
+  background-position: right top;
   background-repeat: no-repeat;
 }
 
 /* line 108, ../sass/style.sass */
-.about-us-title h2 {
+.about-us-title h2, .our-approach-title h2 {
   margin-top: 80px;
   margin-bottom: 34px;
   font-family: SegoeUIBold;
@@ -207,11 +207,12 @@ a.start-tour:hover, a.send-quote:hover {
 
 /* line 116, ../sass/style.sass */
 .about-us-inner p {
+  display: block;
   margin-bottom: 26px;
   font-family: SegoeUILight;
   font-weight: bold;
 }
-/* line 120, ../sass/style.sass */
+/* line 121, ../sass/style.sass */
 .about-us-inner a {
   display: inline-block;
   color: #ffffff;
@@ -228,11 +229,11 @@ a.start-tour:hover, a.send-quote:hover {
   font-size: 12pt;
 }
 
-/* line 135, ../sass/style.sass */
+/* line 136, ../sass/style.sass */
 .quote1 {
   background: url("../img/some-text-bg.jpg");
 }
-/* line 137, ../sass/style.sass */
+/* line 138, ../sass/style.sass */
 .quote1 h2 {
   padding-top: 54px;
   padding-bottom: 54px;
@@ -240,4 +241,24 @@ a.start-tour:hover, a.send-quote:hover {
   font-size: 30pt;
   color: #ffffff;
   text-align: center;
+}
+
+/* line 146, ../sass/style.sass */
+.our-approach {
+  background: url("../img/our-approach-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+/* line 151, ../sass/style.sass */
+.our-approach-p {
+  display: block;
+  margin-bottom: 26px;
+  font-family: SegoeUILight;
+  font-weight: bold;
+}
+
+/* line 158, ../sass/style.sass */
+.our-approach-inner p {
+  margin-bottom: 30px;
 }
