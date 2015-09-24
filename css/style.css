@@ -227,3 +227,17 @@ a.start-tour:hover, a.send-quote:hover {
   cursor: pointer;
   font-size: 12pt;
 }
+
+/* line 135, ../sass/style.sass */
+.quote1 {
+  background: url("../img/some-text-bg.jpg");
+}
+/* line 137, ../sass/style.sass */
+.quote1 h2 {
+  padding-top: 54px;
+  padding-bottom: 54px;
+  font-family: SegoeUILight;
+  font-size: 30pt;
+  color: #ffffff;
+  text-align: center;
+}
