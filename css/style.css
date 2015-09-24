@@ -231,10 +231,11 @@ a.start-tour:hover, a.send-quote:hover {
 
 /* line 136, ../sass/style.sass */
 .quote1 {
-  background: url("../img/some-text-bg.jpg");
+  background: url("../img/quote1.jpg");
 }
+
 /* line 138, ../sass/style.sass */
-.quote1 h2 {
+h2.quote {
   padding-top: 54px;
   padding-bottom: 54px;
   font-family: SegoeUILight;
@@ -261,4 +262,9 @@ a.start-tour:hover, a.send-quote:hover {
 /* line 158, ../sass/style.sass */
 .our-approach-inner p {
   margin-bottom: 30px;
+}
+
+/* line 161, ../sass/style.sass */
+.quote2 {
+  background: url("../img/quote2-bg.jpg");
 }
