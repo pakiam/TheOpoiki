@@ -313,10 +313,11 @@ h2.quote {
 
 /* line 193, ../sass/style.sass */
 .our-clients {
+  position: relative;
   background: #1c40a6;
 }
 
-/* line 197, ../sass/style.sass */
+/* line 198, ../sass/style.sass */
 .our-clients-title h2 {
   margin-top: 46px;
   margin-bottom: 46px;
@@ -328,13 +329,25 @@ h2.quote {
 }
 
 /* line 206, ../sass/style.sass */
+#our-clients-carousel {
+  margin-bottom: 72px;
+}
+
+/* line 208, ../sass/style.sass */
+.client img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 213, ../sass/style.sass */
 .socmedia {
   background: url("../img/socmedia-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-/* line 211, ../sass/style.sass */
+/* line 218, ../sass/style.sass */
 .socmedia-title {
   background: url("../img/soc-media-title-bg.png");
   background-position: center top;
@@ -342,7 +355,7 @@ h2.quote {
   margin-top: 160px;
   margin-bottom: 68px;
 }
-/* line 217, ../sass/style.sass */
+/* line 224, ../sass/style.sass */
 .socmedia-title h2 {
   text-align: center;
   color: #FFFFFF;
@@ -351,50 +364,71 @@ h2.quote {
   padding: 32px 120px;
 }
 
-/* line 224, ../sass/style.sass */
+/* line 231, ../sass/style.sass */
 .socmedia-socials {
   text-align: center;
   font-size: 20pt;
   margin-bottom: 136px;
 }
-/* line 228, ../sass/style.sass */
+/* line 235, ../sass/style.sass */
 .socmedia-socials a {
   color: #FFFFFF;
 }
-/* line 230, ../sass/style.sass */
+/* line 237, ../sass/style.sass */
 .socmedia-socials i.fa {
   background: #f211d5;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 235, ../sass/style.sass */
+/* line 242, ../sass/style.sass */
 .socmedia-socials .fa-facebook {
   padding: 10px 16px;
 }
-/* line 237, ../sass/style.sass */
+/* line 244, ../sass/style.sass */
 .socmedia-socials .fa-twitter, .socmedia-socials .fa-google-plus, .socmedia-socials .fa-envelope {
   padding: 10px 10px;
 }
 
-/* line 240, ../sass/style.sass */
+/* line 247, ../sass/style.sass */
 footer {
   background: url("../img/footer-bg.jpg");
   text-align: center;
   color: #FFFFFF;
 }
 
-/* line 244, ../sass/style.sass */
+/* line 251, ../sass/style.sass */
 .footer-inner {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-/* line 247, ../sass/style.sass */
+/* line 254, ../sass/style.sass */
 .footer-inner p {
   margin-bottom: 14px;
 }
-/* line 249, ../sass/style.sass */
+/* line 256, ../sass/style.sass */
 .footer-inner h4 {
   font-size: 12pt;
   font-family: SegoeUIBold;
+}
+
+/* line 259, ../sass/style.sass */
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+
+/* line 261, ../sass/style.sass */
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -16px;
+  top: 3px;
+  font-size: 20pt;
+  background: none;
+}
+
+/* line 267, ../sass/style.sass */
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -16px;
+  top: 3px;
+  font-size: 20pt;
+  background: none;
 }
