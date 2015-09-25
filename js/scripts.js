@@ -1,3 +1,5 @@
-/**
- * Created by Maksim on 19.06.2015.
- */
+$(document).ready(function() {
+
+    $("#our-clients-carousel").owlCarousel();
+
+});

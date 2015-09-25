@@ -326,3 +326,53 @@ h2.quote {
   text-align: center;
   color: #ffffff;
 }
+
+/* line 206, ../sass/style.sass */
+.socmedia {
+  background: url("../img/socmedia-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* line 211, ../sass/style.sass */
+.socmedia-title {
+  background: url("../img/soc-media-title-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 160px;
+  margin-bottom: 68px;
+}
+/* line 217, ../sass/style.sass */
+.socmedia-title h2 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: SegoeUIRegular;
+  font-size: 22pt;
+  padding: 32px 120px;
+}
+
+/* line 224, ../sass/style.sass */
+.socmedia-socials {
+  text-align: center;
+  font-size: 20pt;
+  margin-bottom: 136px;
+}
+/* line 228, ../sass/style.sass */
+.socmedia-socials a {
+  color: #FFFFFF;
+}
+/* line 230, ../sass/style.sass */
+.socmedia-socials i.fa {
+  background: #f211d5;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 235, ../sass/style.sass */
+.socmedia-socials .fa-facebook {
+  padding: 10px 16px;
+}
+/* line 237, ../sass/style.sass */
+.socmedia-socials .fa-twitter, .socmedia-socials .fa-google-plus, .socmedia-socials .fa-envelope {
+  padding: 10px 10px;
+}
