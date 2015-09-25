@@ -337,7 +337,7 @@ h2.quote {
 /* line 211, ../sass/style.sass */
 .socmedia-title {
   background: url("../img/soc-media-title-bg.png");
-  background-position: center center;
+  background-position: center top;
   background-repeat: no-repeat;
   margin-top: 160px;
   margin-bottom: 68px;
@@ -375,4 +375,26 @@ h2.quote {
 /* line 237, ../sass/style.sass */
 .socmedia-socials .fa-twitter, .socmedia-socials .fa-google-plus, .socmedia-socials .fa-envelope {
   padding: 10px 10px;
+}
+
+/* line 240, ../sass/style.sass */
+footer {
+  background: url("../img/footer-bg.jpg");
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 244, ../sass/style.sass */
+.footer-inner {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* line 247, ../sass/style.sass */
+.footer-inner p {
+  margin-bottom: 14px;
+}
+/* line 249, ../sass/style.sass */
+.footer-inner h4 {
+  font-size: 12pt;
+  font-family: SegoeUIBold;
 }
