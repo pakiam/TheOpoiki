@@ -4,10 +4,10 @@ Error: File to import not found or unreadable: compass/reset.
 
 1: @import "compass/reset"
 2: 
-3: $regular: SegoeUIRegular
-4: $light: SegoeUILight
-5: $bold: SegoeUIBold
-6: 
+3: @mixin regular
+4:   font:
+5:     family: 'Open Sans', sans-serif
+6:     weight: 400
 
 Backtrace:
 style.sass:1
@@ -53,4 +53,4 @@ C:/Ruby22-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/reset.\A         on line 1 of style.sass\A \A 1: @import \"compass/reset\"\A 2: \A 3: $regular: SegoeUIRegular\A 4: $light: SegoeUILight\A 5: $bold: SegoeUIBold\A 6: "; }
+  content: "Error: File to import not found or unreadable: compass/reset.\A         on line 1 of style.sass\A \A 1: @import \"compass/reset\"\A 2: \A 3: @mixin regular\A 4:   font:\A 5:     family: 'Open Sans', sans-serif\A 6:     weight: 400"; }

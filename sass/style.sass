@@ -1,27 +1,36 @@
 @import "compass/reset"
 
-$regular: SegoeUIRegular
-$light: SegoeUILight
-$bold: SegoeUIBold
+@mixin regular
+  font:
+    family: 'Open Sans', sans-serif
+    weight: 400
+@mixin light
+  font:
+    family: 'Open Sans', sans-serif
+    weight: 400
+@mixin bold
+  font:
+    family: 'Open Sans', sans-serif
+    weight: 400
 
 body
   max-width: 1200px
   min-width: 320px
   height: 100%
-  font-family: $light
+  @include light
   font-size: 14pt
   margin: 0 auto
   background-color: #ffffff
 
-header
 .header-navigator
   background: url("../img/header-navigator-bg.png")
 .logo
   float: left
+  cursor: default
   h1
     color: #ffffff
     font-size: 24pt
-    font-family: $bold
+    @include bold
     padding-top: 36px
     padding-bottom: 36px
     letter-spacing: 1px
@@ -51,7 +60,7 @@ header
         padding-right: 10px
       a
         text-transform: uppercase
-        font-family: $regular
+        @include regular
         font-weight: bold
         color: #e1e1e1
         padding: 5px 7px
@@ -79,7 +88,7 @@ header
       margin-top: 140px
     h1
       padding-bottom: 17px
-      font-family: $light
+      @include light
       font-size: 50pt
       color: #ffffff
       letter-spacing: 3px
@@ -90,7 +99,7 @@ header
         font-size: 30pt
     h2
       padding-top: 17px
-      font-family: $regular
+      @include regular
       font-size: 28pt
       color: #ffffff
       @media only screen and (max-width: 992px)
@@ -107,7 +116,7 @@ a.start-tour, a.send-quote
   border-radius: 40px
   padding: 18px 50px
   color: #ffffff
-  font-family: $regular
+  @include regular
   text-transform: uppercase
   -webkit-transition: background-color 1s ease-out 0.1s
   -moz-transition: background-color 1s ease-out 0.1s
@@ -156,7 +165,7 @@ a.start-tour, a.send-quote
   h2
     margin-top: 80px
     margin-bottom: 34px
-    font-family: $bold
+    @include bold
     font-size: 28pt
     text-transform: uppercase
     @media only screen and (max-width: 992px)
@@ -168,7 +177,7 @@ a.start-tour, a.send-quote
   p
     display: block
     margin-bottom: 26px
-    font-family: $light
+    @include light
     font-weight: bold
     @media only screen and (max-width : 768px)
       //text-shadow: 2px 2px 0px #fff
@@ -177,7 +186,7 @@ a.start-tour, a.send-quote
     display: inline-block
     color: #ffffff
     text-transform: uppercase
-    font-family: $regular
+    @include regular
     margin-top: 30px
     margin-bottom: 36px
     padding: 16px 40px
@@ -194,7 +203,7 @@ a.start-tour, a.send-quote
 h2.quote
   padding-top: 54px
   padding-bottom: 54px
-  font-family: $light
+  @include light
   font-size: 30pt
   color: #ffffff
   text-align: center
@@ -219,8 +228,7 @@ h2.quote
 .our-approach-p
   display: block
   margin-bottom: 26px
-  font-family: $light
-  font-weight: bold
+  @include light
 
 
 .our-approach-inner
@@ -251,7 +259,7 @@ h2.quote
     margin-top: 10px
     margin-bottom: 90px
   p
-    font-family: $light
+    @include light
     color: #ffffff
     @media only screen and (max-width: 992px)
       color: #000
@@ -287,7 +295,7 @@ h2.quote
   h2
     margin-top: 46px
     margin-bottom: 46px
-    font-family: $bold
+    @include bold
     font-size: 22pt
     text-transform: uppercase
     text-align: center
@@ -324,7 +332,7 @@ h2.quote
   h2
     text-align: center
     color: #FFFFFF
-    font-family: $regular
+    @include regular
     font-size: 22pt
     padding: 32px 120px
     @media only screen and (max-width : 768px)
@@ -364,7 +372,7 @@ footer
       font-size: 10pt
   h4
     font-size: 12pt
-    font-family: $bold
+    @include bold
     @media only screen and (max-width : 768px)
       font-size: 8pt
 
