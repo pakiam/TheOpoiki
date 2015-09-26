@@ -14,11 +14,8 @@ body
   background-color: #ffffff
 
 header
-  margin: 0 auto
-  background: url("../img/test.jpg")
-
 .header-navigator
-//background: url("../img/header-navigator-bg.png")
+  background: url("../img/header-navigator-bg.png")
 .logo
   float: left
   h1
@@ -41,15 +38,17 @@ header
   @media only screen and (max-width : 768px)
     display: none
   ul
-    padding-top: 42px
+    padding-top: 32px
     @media only screen and (max-width: 992px)
-      padding-top: 46px
+      padding-top: 36px
     display: inline-block
     li
       display: inline-block
-      padding-right: 18px
+      float: left
+      padding-right: 14px
+      padding-top: 10px
       @media only screen and (max-width: 992px)
-        padding-right: 14px
+        padding-right: 10px
       a
         text-transform: uppercase
         font-family: $regular
@@ -71,6 +70,7 @@ header
           border-radius: 30px
 
 .header-main
+  background: url("../img/header-main-bg.jpg")
   text-align: center
   .header-main-text
     margin-top: 200px

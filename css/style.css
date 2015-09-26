@@ -74,17 +74,16 @@ body {
   background-color: #ffffff;
 }
 
-/* line 16, ../sass/style.sass */
-header {
-  margin: 0 auto;
-  background: url("../img/test.jpg");
+/* line 17, ../sass/style.sass */
+.header-navigator {
+  background: url("../img/header-navigator-bg.png");
 }
 
-/* line 22, ../sass/style.sass */
+/* line 19, ../sass/style.sass */
 .logo {
   float: left;
 }
-/* line 24, ../sass/style.sass */
+/* line 21, ../sass/style.sass */
 .logo h1 {
   color: #ffffff;
   font-size: 24pt;
@@ -94,58 +93,60 @@ header {
   letter-spacing: 1px;
 }
 @media only screen and (max-width: 992px) {
-  /* line 24, ../sass/style.sass */
+  /* line 21, ../sass/style.sass */
   .logo h1 {
     font-size: 20pt;
   }
 }
 
-/* line 34, ../sass/style.sass */
+/* line 31, ../sass/style.sass */
 .nav-menu {
   float: right;
   font-size: 16pt;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 34, ../sass/style.sass */
+  /* line 31, ../sass/style.sass */
   .nav-menu {
     font-size: 12pt;
   }
 }
 @media only screen and (max-width: 992px) {
-  /* line 34, ../sass/style.sass */
+  /* line 31, ../sass/style.sass */
   .nav-menu {
     font-size: 10pt;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 34, ../sass/style.sass */
+  /* line 31, ../sass/style.sass */
   .nav-menu {
     display: none;
   }
 }
-/* line 43, ../sass/style.sass */
+/* line 40, ../sass/style.sass */
 .nav-menu ul {
-  padding-top: 42px;
+  padding-top: 32px;
   display: inline-block;
 }
 @media only screen and (max-width: 992px) {
-  /* line 43, ../sass/style.sass */
+  /* line 40, ../sass/style.sass */
   .nav-menu ul {
-    padding-top: 46px;
+    padding-top: 36px;
   }
 }
-/* line 48, ../sass/style.sass */
+/* line 45, ../sass/style.sass */
 .nav-menu ul li {
   display: inline-block;
-  padding-right: 18px;
+  float: left;
+  padding-right: 14px;
+  padding-top: 10px;
 }
 @media only screen and (max-width: 992px) {
-  /* line 48, ../sass/style.sass */
+  /* line 45, ../sass/style.sass */
   .nav-menu ul li {
-    padding-right: 14px;
+    padding-right: 10px;
   }
 }
-/* line 53, ../sass/style.sass */
+/* line 52, ../sass/style.sass */
 .nav-menu ul li a {
   text-transform: uppercase;
   font-family: SegoeUIRegular;
@@ -159,12 +160,12 @@ header {
   transition: background, border-radius 0.7s;
 }
 @media only screen and (max-width: 768px) {
-  /* line 53, ../sass/style.sass */
+  /* line 52, ../sass/style.sass */
   .nav-menu ul li a {
     padding: 3px 4px;
   }
 }
-/* line 66, ../sass/style.sass */
+/* line 65, ../sass/style.sass */
 .nav-menu ul li a:hover {
   color: #000;
   background: #f211d5;
@@ -173,8 +174,9 @@ header {
   border-radius: 30px;
 }
 
-/* line 73, ../sass/style.sass */
+/* line 72, ../sass/style.sass */
 .header-main {
+  background: url("../img/header-main-bg.jpg");
   text-align: center;
 }
 /* line 75, ../sass/style.sass */
